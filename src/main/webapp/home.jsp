@@ -1,3 +1,4 @@
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: Admin
@@ -11,8 +12,9 @@
     <title>Title</title>
 </head>
 <body>
- Test1234567<BR>
- ${testowy2}
+ Test1234567<BR/>
+ ${person.firstname} ${person.lastname}
+ <BR/>
 <%=2+2 %>
 </body>
 </html>
